@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Todo App</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <main>
+            <!-- Page heading -->
+            <label for="todo-input" class="page-heading">Danh sách nhiệm vụ</label>
+
+            <!-- Form -->
+            <form action="" id="todo-form" class="todo-form">
+                <input
+                    type="text"
+                    id="todo-input"
+                    class="input"
+                    placeholder="nhiệm vụ ngày hôm nay"
+                    spellcheck="false"
+                    required
+                />
+                <button id="submit" class="submit-btn" onmousedown="event.preventDefault()">Thêm</button>
+            </form>
+
+            <!-- Task list -->
+            <ul id="task-list" class="task-list">
+            </ul>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
