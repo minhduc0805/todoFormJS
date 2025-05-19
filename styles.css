@@ -89,10 +89,11 @@ main {
 
 .task-title {
     flex: 1;
-    max-width: 50%;/* dùng % */
+    max-width: 60%;/* dùng % */
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal; 
+    padding-left: 5px;
 }
 
 .task-action {
